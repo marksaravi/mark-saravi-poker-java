@@ -12,7 +12,7 @@ public abstract class HandRanker {
     public HandRanker(String name, HandRanker nextRanker) {
         this.nextHandRanker = nextRanker;
         if (nextRanker == null) {
-            this.rank = 0;
+            this.rank = 1;
         } else
             this.rank = nextRanker.rank + 1;
         this.name = name;
