@@ -44,6 +44,7 @@ class App {
         }
         System.out.printf("player 1: %d\n", score1);
         System.out.printf("player 2: %d\n", score2);
+        reader.close();
     }
 
     public static void main(String args[]) {
