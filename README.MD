@@ -5,7 +5,7 @@ Hi
 * It starts with `Royal Flush` and then lower ranks and if no hand pattern was matched, it will be `High Cards`.
 * Starting from lower ranks need to make sure it is not a higher rank. For example a `Pair` might be also a `Two Pair` or `Full House` so it is easier to start from the highest rank.
 * The ranks values are relative to each other so you can add as many ranks as you like without changing the logic.
-* I found the tests for the `Four of a kind`, `Straight Flush` and `Royal Flush` are missing so I used the following hands to the tests.
+* I found the tests for the `Four of a kind`, `Straight Flush` and `Royal Flush` are missing so I used the following hands for testing.
 
 ```
 TH JH QH KH AH 2C 3C 4C 5C 6C
