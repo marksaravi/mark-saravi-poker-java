@@ -1,5 +1,5 @@
 Hi
-* Please forgive me if my Java coding doesn’t meet the standards. I am not a Java developer.
+* Please forgive me if my Java coding doesn’t meet the standards. I am not a Java developer ( yet :) ).
 * Use the *`run.sh`* script to run the tests.
 * I used the **Chain of Responsibility** **Design Pattern** which `HandRanker` is responsible for determining the rank of a hand.
 * The time complexity for every rank matching is n (which is 5) or constant so it can be considered as 1.
