@@ -7,7 +7,7 @@ Hi
 * Starting from lower ranks need to make sure it is not a higher rank. For example a `Pair` might be also a `Two Pair` or `Full House` so it is easier to start from the highest rank.
 * `Hand` sorts the card to make the logic easy
 * `winnerValues` in `Hand` is used in case the ranks are equal. For example a pair of 2 compare a pare of 6 in same rank cards.
-* `compareTo` in `Hand` first check the rank and the `winnerValues` and then just the compare with the higest values.
+* `compareTo` in `Hand` first checks the rank and then `winnerValues` and then just compares the higest values.
 * The ranks values are relative to each other so you can add as many ranks as you like without changing the logic.
 * I found the tests for the `Four of a kind`, `Straight Flush` and `Royal Flush` are missing so I used the following hands for testing.
 
